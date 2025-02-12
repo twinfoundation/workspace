@@ -52,18 +52,6 @@ You can run the following command to perform the full distribution build across 
 npm run submodule:dist
 ```
 
-### Build
+## Development
 
-You can run the following command to perform just a TypeScript compile across all the submodules:
-
-```shell
-npm run submodule:build
-```
-
-### Bundle
-
-You can run the following command to perform just an ESM bundle compile across all the submodules:
-
-```shell
-npm run submodule:bundle-esm
-```
+To work on specific repos it is recommended to open that repo separately in VS Code and use the package script etc within that repo.
