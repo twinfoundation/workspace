@@ -60,7 +60,7 @@ You can run the following command to perform the full distribution build across 
 npm run submodule:dist
 ```
 
-> It should be noted that many of the tests require docker images running (detailed in the repos for each package). Some of the other tests require environment variables for seeds generated, they will fail with messages with instructions on how to generate the seeds.
+> It should be noted that many of the tests require docker images running (details of how to run the docker images are provided in the repos for each package). Some of the other tests require environment variables for seeds generated, they will fail with messages with instructions on how to generate the seeds.
 
 If you want to perform the dist operations without running tests you can use the following command:
 
