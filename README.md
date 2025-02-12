@@ -30,6 +30,8 @@ To add a new module to the repository use the following command:
 git submodule add https://github.com/twinfoundation/<name>.git
 ```
 
+You must also add the name of the module in `package.json` in the `submodules` array, so that it will be processed by the other scripts in the correct chronological build order.
+
 ## Cross module commands
 
 The following commands are available across all the modules.
