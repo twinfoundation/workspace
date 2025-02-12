@@ -44,6 +44,14 @@ You can run the following command to perform an npm install across all the submo
 npm run submodule:install
 ```
 
+If you need to start the `install` process from a specific submodule just add that module name to the end of the command.
+
+e.g. To start again from the `engine` submodule.
+
+```shell
+npm run submodule:install engine
+```
+
 ### Dist
 
 You can run the following command to perform the full distribution build across all the submodules:
@@ -51,6 +59,15 @@ You can run the following command to perform the full distribution build across 
 ```shell
 npm run submodule:dist
 ```
+
+If you need to start the `dist` process from a specific submodule just add that module name to the end of the command.
+
+e.g. To start again from the `engine` submodule.
+
+```shell
+npm run submodule:dist engine
+```
+
 
 ## Development
 

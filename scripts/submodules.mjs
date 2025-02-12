@@ -24,20 +24,30 @@ async function run() {
 	process.stdout.write(`Command: ${command}\n`);
 	process.stdout.write(`\n`);
 
-	const packageJson = await loadJson('package.json');
+	const module = process.argv[3];
+	if (module) {
+		process.stdout.write(`Start Module: ${module}\n`);
+		process.stdout.write(`\n`);
+	}
 
-	for (const submodule of packageJson.submodules) {
+	const packageJson = await loadJson('package.json');
+	let submodules = packageJson.submodules;
+
+	if (module) {
+		const index = submodules.indexOf(module);
+		if (index === -1) {
+			throw new Error(`Module ${module} not found`);
+		} else {
+			submodules = submodules.slice(index);
+		}
+	}
+
+	for (const submodule of submodules) {
 		process.stdout.write(`Submodule: ${submodule}\n`);
 		if (command === "install") {
 			await runShellCmd('npm', ['install'], submodule);
 		} else if (command === "dist") {
 			await runShellApp('node', ['./scripts/workspaces.mjs', 'dist'], submodule);
-		} else if (command === "build") {
-			await runShellApp('node', ['./scripts/workspaces.mjs', 'build'], submodule);
-		} else if (command === "bundle-esm") {
-			await runShellApp('node', ['./scripts/workspaces.mjs', 'bundle:esm'], submodule);
-		} else if (command === "docs") {
-			await runShellApp('node', ['./scripts/workspaces.mjs', 'docs'], submodule);
 		}
 		process.stdout.write(`\n`);
 	}
