@@ -48,6 +48,8 @@ async function run() {
 			await runShellCmd('npm', ['install'], submodule);
 		} else if (command === "dist") {
 			await runShellApp('node', ['./scripts/workspaces.mjs', 'dist'], submodule);
+		} else if (command === "dist-no-test") {
+			await runShellApp('node', ['./scripts/workspaces.mjs', 'dist:no-test'], submodule);
 		}
 		process.stdout.write(`\n`);
 	}

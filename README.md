@@ -60,14 +60,19 @@ You can run the following command to perform the full distribution build across 
 npm run submodule:dist
 ```
 
-If you need to start the `dist` process from a specific submodule just add that module name to the end of the command.
+If you want to perform the dist operations without running tests you can use the following command:
+
+```shell
+npm run submodule:dist-no-test
+```
+
+If you need to start the `dist` or `dist-no-test` process from a specific submodule just add that module name to the end of the command.
 
 e.g. To start again from the `engine` submodule.
 
 ```shell
 npm run submodule:dist engine
 ```
-
 
 ## Development
 

@@ -14,7 +14,8 @@
 	},
 	"scripts": {
 		"submodule:install": "node ./scripts/submodules.mjs install",
-		"submodule:dist": "node ./scripts/submodules.mjs dist"
+		"submodule:dist": "node ./scripts/submodules.mjs dist",
+		"submodule:dist-no-test": "node ./scripts/submodules.mjs dist-no-test"
 	},
 	"devDependencies": {},
 	"submodules": [
