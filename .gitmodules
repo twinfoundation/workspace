@@ -94,3 +94,6 @@
 [submodule "data-processing"]
 	path = data-processing
 	url = https://github.com/twinfoundation/data-processing.git
+[submodule "document-management"]
+	path = document-management
+	url = https://github.com/twinfoundation/document-management.git

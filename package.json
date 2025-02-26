@@ -42,6 +42,7 @@
 		"attestation",
 		"auditable-item-graph",
 		"auditable-item-stream",
+		"document-management",
 		"engine",
 		"ui",
 		"workbench"
