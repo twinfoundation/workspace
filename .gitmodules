@@ -34,9 +34,9 @@
 	path = identity
 	url = https://github.com/twinfoundation/identity.git
 	branch = next
-[submodule "immutable-storage"]
-	path = immutable-storage
-	url = https://github.com/twinfoundation/immutable-storage.git
+[submodule "verifiable-storage"]
+	path = verifiable-storage
+	url = https://github.com/twinfoundation/verifiable-storage.git
 	branch = next
 [submodule "logging"]
 	path = logging
