@@ -37,7 +37,7 @@
 		"dlt",
 		"wallet",
 		"nft",
-		"immutable-storage",
+		"verifiable-storage",
 		"immutable-proof",
 		"attestation",
 		"auditable-item-graph",
