@@ -100,3 +100,6 @@
 [submodule "schema"]
 	path = schema
 	url = https://github.com/twinfoundation/schema.git
+[submodule "node"]
+	path = node
+	url = https://github.com/twinfoundation/node.git

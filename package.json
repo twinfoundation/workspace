@@ -43,7 +43,9 @@
 		"auditable-item-graph",
 		"auditable-item-stream",
 		"document-management",
+		"federated-catalogue",
 		"engine",
+		"node",
 		"ui",
 		"workbench"
 	],
