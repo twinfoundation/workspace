@@ -103,3 +103,12 @@
 [submodule "node"]
 	path = node
 	url = https://github.com/twinfoundation/node.git
+[submodule "rights-management"]
+	path = rights-management
+	url = https://github.com/twinfoundation/rights-management.git
+[submodule "federated-catalogue"]
+	path = federated-catalogue
+	url = https://github.com/twinfoundation/federated-catalogue.git
+[submodule "docs"]
+	path = docs
+	url = https://github.com/twinfoundation/docs.git
