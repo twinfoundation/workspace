@@ -4,7 +4,7 @@
 	"description": "Workspace",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/twinfoundation/workbench.git"
+		"url": "git+https://github.com/twinfoundation/workspace.git"
 	},
 	"author": "martyn.janes@iota.org",
 	"license": "Apache-2.0",
@@ -48,7 +48,7 @@
 		"engine",
 		"node",
 		"ui",
-		"workbench"
+		"playground"
 	],
 	"type": "module"
 }

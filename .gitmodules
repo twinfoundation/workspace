@@ -62,10 +62,6 @@
 	path = vault
 	url = https://github.com/twinfoundation/vault.git
 	branch = next
-[submodule "workbench"]
-	path = workbench
-	url = https://github.com/twinfoundation/workbench.git
-	branch = next
 [submodule "wallet"]
 	path = wallet
 	url = https://github.com/twinfoundation/wallet.git
@@ -112,3 +108,6 @@
 [submodule "docs"]
 	path = docs
 	url = https://github.com/twinfoundation/docs.git
+[submodule "playground"]
+	path = playground
+	url = https://github.com/twinfoundation/playground.git
