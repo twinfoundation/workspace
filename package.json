@@ -38,6 +38,7 @@
 		"wallet",
 		"nft",
 		"verifiable-storage",
+		"synchronised-storage",
 		"immutable-proof",
 		"attestation",
 		"auditable-item-graph",

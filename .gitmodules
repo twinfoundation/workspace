@@ -111,3 +111,6 @@
 [submodule "playground"]
 	path = playground
 	url = https://github.com/twinfoundation/playground.git
+[submodule "synchronised-storage"]
+	path = synchronised-storage
+	url = https://github.com/twinfoundation/synchronised-storage.git

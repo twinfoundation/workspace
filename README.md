@@ -12,7 +12,7 @@ It should be noted the submodules will not be linked to one another, and will al
 
 ## Submodules
 
-You have update all the submodules using the following command:
+You can update all the submodules using the following command:
 
 ```shell
 git submodule update --recursive
