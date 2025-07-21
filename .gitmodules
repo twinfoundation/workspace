@@ -69,48 +69,64 @@
 [submodule "auditable-item-stream"]
 	path = auditable-item-stream
 	url = https://github.com/twinfoundation/auditable-item-stream.git
+	branch = next
 [submodule "ui"]
 	path = ui
 	url = https://github.com/twinfoundation/ui.git
+	branch = next
 [submodule "immutable-proof"]
 	path = immutable-proof
 	url = https://github.com/twinfoundation/immutable-proof.git
+	branch = next
 [submodule "background-task"]
 	path = background-task
 	url = https://github.com/twinfoundation/background-task.git
+	branch = next
 [submodule "engine"]
 	path = engine
 	url = https://github.com/twinfoundation/engine.git
+	branch = next
 [submodule "event-bus"]
 	path = event-bus
 	url = https://github.com/twinfoundation/event-bus.git
+	branch = next
 [submodule "messaging"]
 	path = messaging
 	url = https://github.com/twinfoundation/messaging.git
+	branch = next
 [submodule "data-processing"]
 	path = data-processing
 	url = https://github.com/twinfoundation/data-processing.git
+	branch = next
 [submodule "document-management"]
 	path = document-management
 	url = https://github.com/twinfoundation/document-management.git
+	branch = next
 [submodule "schema"]
 	path = schema
 	url = https://github.com/twinfoundation/schema.git
+	branch = next
 [submodule "node"]
 	path = node
 	url = https://github.com/twinfoundation/node.git
+	branch = next
 [submodule "rights-management"]
 	path = rights-management
 	url = https://github.com/twinfoundation/rights-management.git
+	branch = next
 [submodule "federated-catalogue"]
 	path = federated-catalogue
 	url = https://github.com/twinfoundation/federated-catalogue.git
+	branch = next
 [submodule "docs"]
 	path = docs
 	url = https://github.com/twinfoundation/docs.git
+	branch = next
 [submodule "playground"]
 	path = playground
 	url = https://github.com/twinfoundation/playground.git
+	branch = next
 [submodule "synchronised-storage"]
 	path = synchronised-storage
 	url = https://github.com/twinfoundation/synchronised-storage.git
+	branch = next
