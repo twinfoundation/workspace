@@ -15,9 +15,9 @@
 	"scripts": {
 		"submodule:install": "node ./scripts/submodules.mjs install",
 		"submodule:dist": "node ./scripts/submodules.mjs dist",
-		"submodule:dist-no-test": "node ./scripts/submodules.mjs dist-no-test"
+		"submodule:dist-no-test": "node ./scripts/submodules.mjs dist-no-test",
+		"keywords": "node ./scripts/keywords.mjs"
 	},
-	"devDependencies": {},
 	"submodules": [
 		"framework",
 		"tools",
@@ -52,5 +52,8 @@
 		"ui",
 		"playground"
 	],
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"glob": "^11.0.3"
+	}
 }
