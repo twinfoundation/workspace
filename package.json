@@ -55,5 +55,9 @@
 	"type": "module",
 	"dependencies": {
 		"glob": "^11.0.3"
-	}
+	},
+	"bugs": {
+		"url": "git+https://github.com/twinfoundation/package.json/issues"
+	},
+	"homepage": "https://twindev.org"
 }
