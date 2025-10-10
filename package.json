@@ -59,5 +59,8 @@
 	"bugs": {
 		"url": "git+https://github.com/twinfoundation/package.json/issues"
 	},
-	"homepage": "https://twindev.org"
+	"homepage": "https://twindev.org",
+	"devDependencies": {
+		"@octokit/rest": "^22.0.0"
+	}
 }
