@@ -1,0 +1,18 @@
+name: Add issues to project
+
+# GHA_RELEASE_TOKEN requires
+# org->project: read/write
+# repos->issues: read
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v1.0.2
+        with:
+          project-url: https://github.com/orgs/twinfoundation/projects/3
+          github-token: ${{ secrets.GHA_RELEASE_TOKEN }}
