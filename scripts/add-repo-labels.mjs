@@ -6,9 +6,9 @@ const octokit = new Octokit({
 
 const ORG = "twinfoundation";
 const LABEL = {
-  name: "needs-triage",
-  color: "f0650b",
-  description: "Issues that need triage",
+  name: "information-needed",
+  color: "7ecd6e",
+  description: "More information is needed from the issue reporter",
 };
 
 async function addLabelToAllRepos() {

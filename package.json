@@ -53,14 +53,12 @@
 		"playground"
 	],
 	"type": "module",
-	"dependencies": {
+	"devDependencies": {
+		"@octokit/rest": "22.0.0",
 		"glob": "^11.0.3"
 	},
 	"bugs": {
-		"url": "git+https://github.com/twinfoundation/package.json/issues"
+		"url": "git+https://github.com/twinfoundation/workspace/issues"
 	},
-	"homepage": "https://twindev.org",
-	"devDependencies": {
-		"@octokit/rest": "^22.0.0"
-	}
+	"homepage": "https://twindev.org"
 }
